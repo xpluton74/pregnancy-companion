@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Pregnancy Companion",
+    "slug": "pregnancy-companion",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.pregnancycompanion.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.pregnancycompanion.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-notifications"
+      /* If you later want the RevenueCat config plugin and your installed version supports it, add:
+      [
+        "react-native-purchases",
+        { "userTrackingMode": "authorized", "usesStoreKit2": true }
+      ]
+      */
+    ]
+  }
+}
